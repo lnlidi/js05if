@@ -1,43 +1,42 @@
 //TODO: Впишите имя функции из задания вместо ...
 //TODO: Добавьте правильные параметры
 //TODO: Напишите функцию
-function solve(){alert(digit_name(4))}
-var digit_name = (function () {
-  var names = ['0', '1', '2', '3','4','5','6','7','8','9'];
-  
-  return function () {
-   switch(names[n])
+function f(n) {
+   switch(n)
       {
-      	 case '0' :
-            System.out.println("zero"); 
+      	case 0 :
+            f = ("zero"); 
             break;
-         case '1' :
-            System.out.println("one"); 
+         case 1 :
+            f = ("one"); 
             break;
-         case '2' :
-            System.out.println("two"); 
+         case 2 :
+            f = ("two"); 
             break;
-         case '3' :
-            System.out.println("three");
+         case 3 :
+            f = ("three");
             break;
-         case '4' :
-            System.out.println("four");
+         case 4 :
+            f = ("four");
             break;
-         case '5' :
-            System.out.println("five");
+         case 5 :
+            f = ("five");
             break;
-         case '6' :
-            System.out.println("six"); 
+         case 6 :
+            f = ("six"); 
             break;
-         case '7' :
-            System.out.println("seven"); 
+         case 7 :
+            f = ("seven"); 
             break;
-         case '8' :
-            System.out.println("eight"); 
+         case 8 :
+            f = ("eight"); 
             break;
-         case '9' :
-            System.out.println("nine"); 
+         case 9 :
+            f = ("nine"); 
             break;
          default :
-            System.out.println("Error");
-}}();
+            f = ("Error");
+}
+return f;
+}
+module.exports =  f;
